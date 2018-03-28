@@ -1,0 +1,26 @@
+{
+    "name": "lubodyer/wp-nonces",
+    "description": "WordPress nonce creation and verification OOP style.",
+    "homepage": "https://github.com/lubodyer/wp-nonces",
+    "keywords": ["WordPress", "Nonces", "OOP"],
+    "require": {
+        "php": ">=5.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.7.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lubo Dyer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "classmap": ["src/"]
+    },
+    "autoload-dev": {
+        "classmap": ["test/"],
+        "files": ["test/mock-wp-functions.php"]
+    }
+}
